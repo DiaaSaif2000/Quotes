@@ -1,0 +1,38 @@
+element.style {
+    direction: ltr;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: Impact;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+}
+
+div{
+    text-align: center;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 35px;
+}
+
+button {
+    width: 250px;
+    height: 80px;
+    background-color: blue;
+    color: white;
+}
+
+.button:hover{
+    width: 300px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: aqua;
+}
